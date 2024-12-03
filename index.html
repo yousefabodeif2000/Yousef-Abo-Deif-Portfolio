@@ -9,7 +9,6 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Yousef Abo-Deif</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -26,6 +25,7 @@
                 <span></span>
                 <span></span>
                 <span></span>
+                <span></span>   
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenus()">About</a></li>
@@ -35,6 +35,24 @@
             </div>
         </div>
     </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/Yousef.png" alt="Yousef Ahmed">
+        </div>
+        <div class="section_text">
+           <h1 class="title">Yousef Abo-Deif</h1>
+            <p class="section_text_p1">Backend Developer</p>
+            <div class="btn-container">
+                <button class="btn_download-resume" onclick = "window.open('./assets/YoussefAhmed_Resume.pdf')">Download Resumé</button>
+                <button class="btn_contact" onclick = "location.href = './#contact' ">Contact Me</button>
+            </div>
+            <div id = "social-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href = 'https://www.linkedin.com/in/yousef-ahmed-5876691a1/'">
+                <img src="./assets/github.png" alt="My GitHub" class="icon" onclick="location.href = 'https://github.com/yousefabodeif2000'">
+            
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
