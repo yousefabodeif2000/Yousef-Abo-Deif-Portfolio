@@ -4,9 +4,9 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box !important
 }
-
+/* BACKGROUND */
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -17,6 +17,8 @@ html{
 p{
     color: rgb(85, 85, 85);
 }
+
+
 
 /*Transitions*/
 
@@ -185,6 +187,7 @@ section
 {
     font-size: 2rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 #social-container
 {
@@ -271,8 +274,20 @@ section
 .nyit-icon
 {
   border-radius: 2rem;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
+}
+.aast-icon
+{
+  border-radius: 2rem;
+  width: 138px;
+  height: 120px;
+}
+.lam-icon
+{
+  border-radius: 2rem;
+  width: 150px;
+  height: 80px;
 }
 .arrow
 {
@@ -300,4 +315,11 @@ section
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.text_container
+{
+  margin-bottom: 2rem;
+  margin-right: 15rem;
+  margin-left: 15rem;
+  text-align: center;
 }
