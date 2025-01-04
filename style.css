@@ -302,8 +302,17 @@ section
 /*Icons*/
 .icon 
 {
-    cursor: pointer;
     height: 2rem;
+}
+
+.project-img{
+  width: 35rem;
+  height: 30rem;
+  border-radius: 2rem;
+}
+.maz{
+  width: 35rem;
+  height: 23rem;
 }
 /* About Section */
 #about
@@ -327,6 +336,10 @@ section
 .about-containers, .about-details-container
 {
   display:flex;
+}
+.social-icon
+{
+  cursor: pointer;
 }
 .nyit-icon
 {
@@ -376,8 +389,8 @@ section
 .text_container
 {
   margin-bottom: 2rem;
-  margin-right: 15rem;
-  margin-left: 15rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
   text-align: center;
 }
 
@@ -423,43 +436,17 @@ cursor: default;
 #projects{
   position: relative;
 }
-.project-img{
-  width: 35rem;
-  height: 30rem;
-  border-radius: 2rem;
-}
-.project-container
-{
-  width: 40rem;
-  height: 43rem;
-  position: relative;
-  margin-bottom: 5rem;
-  /*
- 
-  margin-left: 15rem;
-  */
-}
-.projects-containers
-{
-  margin-right: 17rem;
-  row-gap: -20rem;
-  max-width: 1200px;
-  margin: 10 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 15rem;
-}
-.project-container-2
-{
-  height: 10rem;
-  width: 85rem;
-}
-.projects-containers-2
-{
-  display:grid;
-  gap: 2rem;
+
+
+
+.project-container{
   margin-bottom: 2rem;
-  margin-top: 2rem;
-  margin: auto;
-  margin-left: 7rem;
+}
+/* Contact Section */
+.subtitle{
+  font-weight: bold;
+  margin-top: -2.25rem;
+}
+#contact{
+  height: 12rem;
 }
