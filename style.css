@@ -214,6 +214,7 @@ section
     box-sizing: border-box;
     min-height: fit-content;
 }
+
 .section-container, #profile
 {
     display: flex;
